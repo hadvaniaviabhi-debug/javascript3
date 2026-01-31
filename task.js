@@ -61,8 +61,7 @@ console.log(student.hobbies);
 
 
 //merge hobby witih course arry 
-let mergedArray = student.course.concat(student.hobbies);
-console.log(mergedArray);
+console.log("merge hobby witih course arry ",[...student.hobbies, ...student.course.split(",")]);
 
 
 //check if "react" exists in course array
